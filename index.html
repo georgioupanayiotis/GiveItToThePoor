@@ -15,7 +15,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="jumbotron.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -39,7 +39,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Give it to the poor</a>
+          <a class="navbar-brand" href="index.html">Give it to the poor</a>
         </div>
         <div class="navbar-collapse collapse">
           <form class="navbar-form navbar-right" role="form">
@@ -50,7 +50,7 @@
               <input type="password" placeholder="Password" class="form-control">
             </div>
             <button type="submit" class="btn btn-success">Sign in</button>
-            <button type="submit" class="btn"> Register </button>
+            <a href="register.html"  role="button" class="btn btn-primary"> Register </a>
           </form>
         </div><!--/.navbar-collapse -->
       </div>
@@ -59,38 +59,41 @@
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
       <div class="container">
-        <h1>Give It To The Poor</h1>
-        <p>A non-profit web service that allows to donate  Essentail Supplies or money to people who need it more than you. </p>
-        <p><a class="btn btn-primary btn-lg" role="button">Learn more &raquo;</a></p>
+       <!--  <h1>Give It To The Poor</h1> -->
+        <h2>A non-profit web service that allows to donate  Essentail Supplies or money to people who need it more than you. </h2>
+        <p id="follow"><a class="btn btn-primary btn-lg" role="button">Learn more &raquo;</a></p>
       </div>
     </div>
 
-    <div class="container">
-      <!-- Example row of columns -->
-      <div class="row">
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+    <div class="columns"> 
+      <div class="container">
+        <!-- Example row of columns -->
+        <div class="row">
+          <div class="col-md-4">
+            <h2>Essential Supplies</h2>
+            <p>You are welcome to donate any dry food (rice, beans, canned food), cleaning equipments or unwanted clothes </p>
+            <p id="test"><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          </div>
+          <div class="col-md-4">
+            <h2>Money</h2>
+            <p>You are welcome to donate money. </p>
+            <p id="test"><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+         </div>
+          <div class="col-md-4">
+            <h2>Volunteering Work</h2>
+            <p>You are welcome to be an active member of the service by helping transfering the items from the storage to the people.</p>
+            <p id="test"><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          </div>
+        
         </div>
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-       </div>
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div>
-      </div>
-
-      <hr>
-
-      <footer>
-        <p>&copy; Company 2014</p>
-      </footer>
-    </div> <!-- /container -->
+        <hr>
+      </div> <!-- /container -->
+        
+        <footer>
+          <p class = "footer_p">&copy; Company 2014</p>
+        </footer>
+    
 
 
     <!-- Bootstrap core JavaScript
