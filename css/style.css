@@ -1,6 +1,4 @@
-.jumbotron h1{
-	color:#ff6600;
-}
+
 
 .jumbotron{
 opacity: 0.8;
@@ -9,7 +7,7 @@ background-color: grey;
 
 
 h1 {
-position: center;
+	text-align: center;
 }
 
 body {
@@ -27,8 +25,41 @@ h2{
 .columns {
 	background-color:grey;
 	opacity: 0.9;
+	margin-top: 13%;
+}
+
+.columns p{
+
+	height:100px;
+}
+
+#test{
+	margin: 0 auto;
+	text-align: center;
 }
 
 .footer_p{
 	color: white;
 }
+
+.register{
+	text-align: center;
+	//border:5px solid red;
+	margin: 10% auto;
+	width: 300px;
+}
+
+.register input {
+	padding:3%;
+	margin:3%;
+}
+.jumbotron h2, #follow{
+	color:#ff6600;
+	text-align: center;
+}
+
+.register_p{
+	color:white;
+	text-align: left;
+}
+
