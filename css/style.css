@@ -1,0 +1,34 @@
+.jumbotron h1{
+	color:#ff6600;
+}
+
+.jumbotron{
+opacity: 0.8;
+background-color: grey;
+}
+
+
+h1 {
+position: center;
+}
+
+body {
+    background-image: url("../img/background.jpg" );
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    //background-color:red;
+}
+
+h2{
+	color: white;
+}
+
+.columns {
+	background-color:grey;
+	opacity: 0.9;
+}
+
+.footer_p{
+	color: white;
+}
